@@ -1,11 +1,10 @@
 <?php
-session_start();
 
-if(isset($_SESSION['timesClicked'])) {
-    $_SESSION['timesClicked']++;
+if(isset($_COOKIE['timesClicked'])) {
+    setcookie('timesClicked', ++$_COOKIE['timesClicked'], time() + 5);
 } else {
-    $_SESSION['timesClicked'] = 1;
+    setcookie('timesClicked', 1, time() + 5);
 }
 
-header("location: http://localhost/cookieclicker");
+header("location: http://localhost/cookieclicker/");
 ?>
