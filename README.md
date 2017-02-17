@@ -20,6 +20,8 @@ cd cookieclicker
 git clone https://github.com/vbrh-immalle/phpcookieclicker.git .
 ```
 
+(We also assume a user `imma` exists on the system.)
+
 You can show all available (remote) branches with:
 
 ```
@@ -33,6 +35,8 @@ git checkout session
 git checkout cookie
 ```
 
+(If you shell has a nice prompt, it will show the current branch.)
+
 # Experiment!
 
 ## Browser tools
@@ -44,7 +48,7 @@ Test it from different profiles (e.g. incognito modus)
 
 ## Curl
 
-Use curl to have fine-grained control over the sent cookies.
+Use curl to have fine-grained control over the cookies.
 
 Cookies are sent with a HTTP request.
 This can be simulated with curl:
@@ -59,3 +63,9 @@ cat mycookie
 
 - `-b mycookie` uses the file `mycookie` and sends it with the HTTP request
 - `-c mycookie` writes the file `mycookies` when the server sets any cookies
+
+## To try
+
+- Change the expiration time of the cookie (in branch `cookie`)
+- Try to cheat the cookieclicker-app (in branch `cookie`)
+- ...
