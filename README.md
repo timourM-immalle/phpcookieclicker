@@ -35,7 +35,7 @@ git checkout session
 git checkout cookie
 ```
 
-(If you shell has a nice prompt, it will show the current branch.)
+(If your shell has a nice prompt, it will show the current branch.)
 
 # Experiment!
 
