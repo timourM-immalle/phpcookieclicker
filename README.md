@@ -19,6 +19,7 @@ sudo chown imma cookieclicker
 cd cookieclicker
 git clone https://github.com/vbrh-immalle/phpcookieclicker.git .
 ```
+bij: `no space left on device`: `sudo apt-get autoremove` (en u kan zien hoeveel ruimte er is met `df -h`).
 
 (We also assume a user `imma` exists on the system.)
 
