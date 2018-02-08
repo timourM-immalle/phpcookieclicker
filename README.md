@@ -35,6 +35,7 @@ To switch between the 2 versions:
 git checkout session
 git checkout cookie
 ```
+E.g. `vi index.php` to 'enter' it.
 
 (If your shell has a nice prompt, it will show the current branch.)
 
